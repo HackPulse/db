@@ -1,0 +1,27 @@
+# Node / Python modules (just in case devs run tools/scripts)
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Environment files (for local keys or configs)
+.env
+.env.*
+
+# macOS + Linux
+.DS_Store
+Thumbs.db
+
+# Supabase local CLI config (if you ever use it)
+.supabase/
+
+# SQL editor temp files or backups
+*.sql~
+*.bak
+*.swp
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# Migrations temp (if using tooling like dbmate, sqitch, etc.)
+migrations/generated/
