@@ -37,6 +37,8 @@ db/
 ├── schema.sql         # Supabase schema definition
 ├── migrations/        # (empty for now — migration tracking planned)
 └── README.md          # You’re here!
+
+```
 > 📌 Migrations are not implemented yet — but the folder is ready for versioned updates.
 
 ## 🚀 Usage
